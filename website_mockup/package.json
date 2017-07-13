@@ -1,0 +1,20 @@
+{
+  "name": "website_mockup",
+  "version": "0.0.1",
+  "description": "Mockup for Geotrust Sciunit website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chosen-js": "^1.7.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mysql": "^2.13.0",
+    "sequelize": "^4.3.2",
+    "sequelize-cli": "^2.7.0"
+  }
+}
