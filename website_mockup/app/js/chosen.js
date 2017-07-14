@@ -1,2 +1,5 @@
-
-$(".chosen-selcet").chosen();
+$(function(){
+	$(".chosen-select").chosen({
+		width: auto
+	});
+})

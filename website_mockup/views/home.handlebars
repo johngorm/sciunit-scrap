@@ -1,7 +1,7 @@
 
 
 <div class="control">
-	<div class="upload row">
+	<div class="row upload-row">
 		<form >
 			<label for="upload">Upload SciUnit</label>
 			<input type="file" name="sciunit" accept="text/*">
@@ -9,18 +9,19 @@
 		</form>
 	</div>
 	<br />
-	<div class="search row">
-		<form>
-			<label for="searchbar">Search SciUnits</label>
-			<select name="sciunit-list" class="chosen-select" id="sciunit-search" width="100px">
-			{{!-- Dynamically populate with sciunits from db --}}
-				<option value="foo">Foo</option>
-				<option value="bar">Bar</option>
-				<option value="mee">Mee</option>
-			</select>
-			<br />
-			<input type="submit">
-		</form>
+	<div class="row search-row">
+		<div class="col-lg-6">
+			<form>
+				<label for="searchbar">Search SciUnits</label>
+				<select name="searchbar" class="chosen-select" id="sciunit-search">
+					<option value="foo">Foo</option>
+					<option value="bar">Bar</option>
+					<option value="mee">Mee</option>
+				</select>
+				<br />
+				<input type="submit">
+			</form>
+		</div>
 	</div>
 </div>
 
